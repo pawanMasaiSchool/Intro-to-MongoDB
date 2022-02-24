@@ -1,4 +1,5 @@
 1) find all movies which are equal to movie_name
+
 db.movies_data.find({movie_name:"Tampopo"},{movie_name:1,production_year:1,_id:0})
 
 
